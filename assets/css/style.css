@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300;400&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* #202020, #24bff2, #fff, #F5FBFE
+
+#3b5998, #fcaf45, #55acee, #c4302b */
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: #202020;
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    color: #202020;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+img:hover{
+    box-shadow: 0 0 1px #202020;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin: 0.75%;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0.75%;
+}
+
+header div{
+    height: 100vh;
+    width: 90%;
+    margin-left: 10%;
+    background: url(../img/illustration1.gif) no-repeat right top;
+    background-size: 40%;
+    border: 1px solid;
+}
+
+header div article{
+    width: 40%;
+    margin-top: 10%;
+}
+
+main section:first-of-type article:first-of-type{
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    background: url(../img/illustration2.png) no-repeat left top;
+    background-size: 38%;
+    border: 1px solid;
+}
+
+main section:first-of-type article:first-of-type div{
+    width: 40%;
+    margin: 10% 0 0 57%;
+}
+
+main section:first-of-type article:nth-of-type(2){
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    background: url(../img/illustration3.png) no-repeat right bottom;
+    background-size: 38%;
+    border: 1px solid;
+}
+
+main section:first-of-type article:nth-of-type(2) div{
+    width: 40%;
+    margin-top: 35%;
+}
+
+main section:nth-of-type(2){
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main section:nth-of-type(2) h2:nth-of-type(1n+4), p:nth-of-type(1n+4){
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+main section:nth-of-type(2) div:first-of-type img{
+    width: 33%;
+    display: inline-block;
+}
+
+main section:nth-of-type(2) div:nth-of-type(2) img{
+    width: 45%;
+    display: inline-block;
+    margin: 2%;
+}
+
+main section:nth-of-type(2) article{
+    width: 25%;
+    margin: 0 auto;
+    background: #F5FBFE
+}
+
+footer{
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
